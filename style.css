@@ -19,7 +19,10 @@ body {
 
 .product-card {
   background-color: #f7f7fa;
+  padding: 20px;
+  margin-bottom: 20px;
 }
+
 .main-text {
   font-size: 13px;
   line-height: 13px;
