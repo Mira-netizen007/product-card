@@ -4,36 +4,64 @@
 body {
   font-family: Montserrat, sans-serif;
   font-size: 13px;
+  line-height: 18px;
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
 }
-
 .title {
   font-size: 70px;
   font-weight: 400;
   line-height: 78px;
   margin: 110px;
   text-align: center;
-  width: 100%;
   color: #515076;
 }
 .product-list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  width: 1110px;
+  justify-content: center;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #515076;
+}
+.main-text,
+.compound,
+.compound-list {
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
 }
 
+.tag {
+  font-size: 12px;
+  line-height: 24px;
+  color: #a5a3b9;
+  display: block;
+  text-transform: uppercase;
+}
 .product-card {
   background-color: #f7f7fa;
   width: 340px;
   padding: 25px;
 }
-
-.main-text {
-  font-size: 13px;
-  line-height: 13px;
+.price,
+.sum {
+  font-size: 20px;
+  line-height: 24px;
   color: #515076;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
 }
 .tag {
   font-size: 12px;
@@ -42,7 +70,6 @@ body {
   display: block;
   text-transform: uppercase;
 }
-
 .button {
   font-size: 20px;
   background-color: #515076;
